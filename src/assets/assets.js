@@ -16,6 +16,7 @@ import card3 from './card3.jpg'
 import card4 from './card4.jpg' 
 import card5 from './card5.jpg' 
 import card6 from './card6.jpg' 
+import about_img from './abouthero.jpg'
 
 export const assets = {
         card1,
@@ -23,7 +24,8 @@ export const assets = {
         card3,
         card4,
         card5,
-        card6
+        card6,
+        about_img
 }
 
 

@@ -50,7 +50,7 @@ function Navbar() {
               onClick={() => setMenuOpen(false)}
              
             >
-              <HiXCircle  size={'30'}/>
+              <HiXCircle size={'30'}/>
             </button>
           </motion.div>
         )}

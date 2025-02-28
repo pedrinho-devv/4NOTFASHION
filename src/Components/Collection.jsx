@@ -3,7 +3,7 @@ import { products } from "../assets/assets";
 
 function Collection() {
     return (
-        <div className="w-full text-white">
+        <div className="w-full text-white mt-20">
             {/* Cabeçalho da coleção */}
             <div className="container mx-auto text-center py-16 mt-10">
                 <h2 className="text-5xl text-start pl-6 font-bold">NEW COLLECTION</h2>

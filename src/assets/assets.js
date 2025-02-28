@@ -17,6 +17,8 @@ import card4 from './card4.jpg'
 import card5 from './card5.jpg' 
 import card6 from './card6.jpg' 
 import about_img from './abouthero.jpg'
+import men from './menhero.jpg'
+import woman from './womanhero.jpg'
 
 export const assets = {
         card1,
@@ -25,7 +27,9 @@ export const assets = {
         card4,
         card5,
         card6,
-        about_img
+        about_img,
+        men,
+        woman
 }
 
 
@@ -88,7 +92,7 @@ export const products = [
         subCategory: "Topwear",
         sizes: ["M", "L", "XL"],
         date: 1716622345448,
-        bestseller: true
+        bestseller: false
     },
     {
         _id: "aaaaf",
@@ -100,7 +104,7 @@ export const products = [
         subCategory: "Topwear",
         sizes: ["S", "L", "XL"],
         date: 1716623423448,
-        bestseller: true
+        bestseller: false
     },
     {
         _id: "aaaag",

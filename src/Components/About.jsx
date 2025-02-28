@@ -2,7 +2,7 @@ import { assets } from "../assets/assets";
 
 export default function About() {
   return (
-    <div className="relative w-full h-screen flex items-center justify-center">
+    <div className="relative w-full h-screen flex items-center justify-center mt-28">
       {/* Imagem de fundo */}
       <img
         src={assets.about_img}

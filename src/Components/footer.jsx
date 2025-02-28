@@ -38,10 +38,11 @@ function Footer() {
       <div className="overflow-hidden bg-black py-4">
       <motion.div
         className="flex space-x-12 text-lg font-semibold"
-        animate={{ x: ["100%", "-100%"] }}
+        animate={{ x: ["0%", "-100%"] }}
         transition={{
-          duration: 30,  
+          duration: 10,  
           ease: "linear", 
+          repeat: Infinity,
         }}
       >
         {marqueeTexts.map((item, index) => (

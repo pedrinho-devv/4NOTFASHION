@@ -19,6 +19,7 @@ import card6 from './card6.jpg'
 import about_img from './abouthero.jpg'
 import men from './menhero.jpg'
 import woman from './womanhero.jpg'
+import footerhero from './footerhero.jpg'
 
 export const assets = {
         card1,
@@ -29,7 +30,8 @@ export const assets = {
         card6,
         about_img,
         men,
-        woman
+        woman,
+        footerhero
 }
 
 

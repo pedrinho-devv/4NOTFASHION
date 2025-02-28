@@ -40,7 +40,7 @@ function Footer() {
         className="flex space-x-12 text-lg font-semibold"
         animate={{ x: ["100%", "-100%"] }}
         transition={{
-          duration: 20,  
+          duration: 30,  
           ease: "linear", 
         }}
       >
@@ -138,7 +138,7 @@ function Footer() {
 
       {/* Footer inferior */}
       <footer className="text-center py-4 bg-black text-gray-400 text-sm">
-        &copy; 2025 Todos os direitos reservados. Feito por Pedro.
+        &copy; 2025 Todos os direitos reservados. Desenvolvido por Pedrinho.dev.
         <div className="mt-4 flex justify-center space-x-6">
           <FaCcVisa size={30} className="text-white hover:text-gray-400" />
           <FaCcMastercard
